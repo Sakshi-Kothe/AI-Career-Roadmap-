@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Feedback</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
+}
+
+/* PAGE BACKGROUND */
+
+body{
+background:#081a33;
+}
+
+/* HEADER */
+
+.header{
+background:#e04893;
+color:white;
+text-align:center;
+padding:25px;
+font-size:40px;
+font-weight:bold;
+}
+
+/* CENTER CONTAINER */
+
+.container{
+display:flex;
+justify-content:center;
+align-items:center;
+height:80vh;
+}
+
+/* FEEDBACK CARD */
+
+.card{
+background:#1e2e45;
+width:650px;
+padding:40px;
+border-radius:8px;
+text-align:center;
+color:white;
+}
+
+/* TITLE */
+
+.card h2{
+color:#36d1e7;
+margin-bottom:30px;
+}
+
+/* LABEL */
+
+.label{
+text-align:left;
+margin-bottom:10px;
+color:#a9b9cf;
+font-size:15px;
+}
+
+/* TEXT AREA */
+
+textarea{
+width:100%;
+height:120px;
+padding:15px;
+border:2px solid #5f6bff;
+border-radius:4px;
+background:#0d1c34;
+color:white;
+font-size:14px;
+resize:none;
+}
+
+/* RATING */
+
+.rating{
+margin-top:30px;
+}
+
+.rating span{
+font-size:35px;
+color:#f6b300;
+margin:5px;
+cursor:pointer;
+}
+
+/* BUTTON */
+
+button{
+margin-top:30px;
+background:#e04893;
+color:white;
+border:none;
+padding:15px 40px;
+font-size:16px;
+border-radius:10px;
+cursor:pointer;
+}
+
+button:hover{
+background:#c7377b;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+Feedback
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h2>We’d love your feedback!</h2>
+
+<div class="label">Your Feedback</div>
+
+<textarea placeholder="Write your thoughts here..."></textarea>
+
+<div class="rating">
+
+<div class="label">Rate Your Experience</div>
+
+<span>★</span>
+<span>★</span>
+<span>★</span>
+<span>★</span>
+<span style="color:#9aa6b8;">★</span>
+
+</div>
+
+<button>Submit Feedback</button>
+
+</div>
+
+</div>
+
+</body>
+</html>
