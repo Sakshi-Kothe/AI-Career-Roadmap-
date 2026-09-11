@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Career Roadmap System - Student Profile</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #1c1c1c; color: #fff; }
+    header { background: #2c3e50; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { padding: 60px; text-align: center; }
+    h2 { font-size: 2em; margin-bottom: 20px; }
+    form { max-width: 600px; margin: 0 auto; text-align: left; }
+    h3 { margin-top: 25px; color: #3498db; }
+    label { display: block; margin: 10px 0 5px; }
+    input, select { width: 100%; padding: 10px; margin-bottom: 15px; border: none; border-radius: 5px; }
+    input[type="checkbox"] { width: auto; margin-right: 10px; }
+    button { padding: 12px 25px; font-size: 16px; margin: 10px 5px; cursor: pointer; border: none; background: #3498db; color: #fff; border-radius: 5px; }
+    button:hover { background: #2980b9; }
+    footer { background: #2c3e50; text-align: center; padding: 15px; margin-top: 40px; color: #ccc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AI Career Roadmap System</h1>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+      <a href="roadmap.html">Roadmap</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Student Profile Details</h2>
+    <form action="skillgap.html" method="post">
+      <h3>📚 Academic Details</h3>
+      <label>10th %:</label>
+      <input type="text" name="tenth">
+      <label>12th %:</label>
+      <input type="text" name="twelfth">
+      <label>Current CGPA:</label>
+      <input type="text" name="cgpa">
+
+      <h3>⚙️ Technical Skills</h3>
+      <label><input type="checkbox" name="skills" value="Java"> Java</label>
+      <label><input type="checkbox" name="skills" value="SQL"> SQL</label>
+      <label><input type="checkbox" name="skills" value="Python"> Python</label>
+      <label><input type="checkbox" name="skills" value="HTML"> HTML</label>
+      <label><input type="checkbox" name="skills" value="CSS"> CSS</label>
+      <label><input type="checkbox" name="skills" value="AI/ML"> AI/ML</label>
+
+      <h3>🎯 Career Goal</h3>
+      <select name="career">
+        <option>Software Developer</option>
+        <option>Full Stack Developer</option>
+        <option>Data Analyst</option>
+      </select>
+
+      <h3>💡 Interests</h3>
+      <select name="interests">
+        <option>Web Dev</option>
+        <option>AI</option>
+        <option>Data Science</option>
+      </select>
+
+      <h3>Study Hours/Day</h3>
+      <select name="studyhours">
+        <option>2</option>
+        <option>4</option>
+        <option>6</option>
+      </select>
+
+      <button type="submit">Generate Roadmap</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2026 Career Roadmap System | Screen 4: Student Profile Input</p>
+  </footer>
+</body>
+</html>
